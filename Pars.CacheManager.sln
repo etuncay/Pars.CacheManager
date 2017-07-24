@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pars.CacheManager", "Pars.CacheManager\Pars.CacheManager.csproj", "{A8009078-EFE4-4387-BD1F-151960404287}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pars.PluginContracts", "Pars.PluginContracts\Pars.PluginContracts.csproj", "{F6FEA9DD-D14D-4917-B188-9484CDA18354}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Provider", "Provider", "{72D1D38A-9DC6-480D-BA4F-DB665324DD15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pars.MemoryCacheProvider", "Plugins\Pars.MemoryCacheProvider\Pars.MemoryCacheProvider.csproj", "{EDDCC844-E1F3-4816-8B9F-2E3BC92A9E70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pars.DictionaryCacheProvider", "Plugins\Pars.DictionaryCacheProvider\Pars.DictionaryCacheProvider.csproj", "{9E485CB9-AE4A-42AA-BB1E-449FDFF450AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleWebProject", "ExampleWebProject\ExampleWebProject.csproj", "{450F6F44-5A21-4705-96F5-5B062960F464}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8009078-EFE4-4387-BD1F-151960404287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8009078-EFE4-4387-BD1F-151960404287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8009078-EFE4-4387-BD1F-151960404287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8009078-EFE4-4387-BD1F-151960404287}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6FEA9DD-D14D-4917-B188-9484CDA18354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6FEA9DD-D14D-4917-B188-9484CDA18354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6FEA9DD-D14D-4917-B188-9484CDA18354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6FEA9DD-D14D-4917-B188-9484CDA18354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDDCC844-E1F3-4816-8B9F-2E3BC92A9E70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDDCC844-E1F3-4816-8B9F-2E3BC92A9E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDDCC844-E1F3-4816-8B9F-2E3BC92A9E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDDCC844-E1F3-4816-8B9F-2E3BC92A9E70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E485CB9-AE4A-42AA-BB1E-449FDFF450AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E485CB9-AE4A-42AA-BB1E-449FDFF450AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E485CB9-AE4A-42AA-BB1E-449FDFF450AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E485CB9-AE4A-42AA-BB1E-449FDFF450AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{450F6F44-5A21-4705-96F5-5B062960F464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{450F6F44-5A21-4705-96F5-5B062960F464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{450F6F44-5A21-4705-96F5-5B062960F464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{450F6F44-5A21-4705-96F5-5B062960F464}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EDDCC844-E1F3-4816-8B9F-2E3BC92A9E70} = {72D1D38A-9DC6-480D-BA4F-DB665324DD15}
+		{9E485CB9-AE4A-42AA-BB1E-449FDFF450AF} = {72D1D38A-9DC6-480D-BA4F-DB665324DD15}
+	EndGlobalSection
+EndGlobal
